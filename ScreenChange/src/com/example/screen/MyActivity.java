@@ -11,11 +11,12 @@ import android.widget.TextView;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * 屏幕横竖屏切换，和生命周期管理
+ *
+ */
 public class MyActivity extends Activity {
 
-    /**
-     * 屏幕横竖屏切换，和生命周期管理
-     */
 
     TextView text_screen;
 
