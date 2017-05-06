@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:myxmlns="http://schemas.android.com/apk/res/com.example.volum"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <com.example.volum.CustomVolumControlView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            myxmlns:bg="@drawable/customize"
+            myxmlns:circleWidth="12dp"
+            myxmlns:dotCount="20"
+            myxmlns:firstColor="#252420"
+            myxmlns:secondColor="#FDFDFD"
+            myxmlns:splitSize="25"
+            />
+
+    <com.example.volum.CustomVolumControlView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            myxmlns:bg="@drawable/icon"
+            myxmlns:circleWidth="10dp"
+            myxmlns:dotCount="10"
+            myxmlns:firstColor="#00ff00"
+            myxmlns:secondColor="#ff0000"
+            myxmlns:splitSize="15"
+            />
+
+
+    <com.example.volum.CustomProgressBar
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            myxmlns:circleWidth="10dp"
+            myxmlns:firstColor="#ADC6E5"
+            myxmlns:secondColor="#0362DB"
+            myxmlns:speed="25"
+            />
+
+
+</LinearLayout>
+

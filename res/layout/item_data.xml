@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="60dp"
+              android:gravity="center"
+              android:id="@+id/list_item"
+              android:background="#fff"
+        >
+    <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_time"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+
+    <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_maxPress"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+
+    <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_minPress"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+
+    <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_heartRate"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+
+    <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_pulseRate"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+    <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_delete"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:text="删除"
+            />
+
+</LinearLayout>

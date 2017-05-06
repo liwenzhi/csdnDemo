@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datas>
+<data>
+<time>2014-03-08 15:43:34</time>
+<maxPrice>170</maxPrice>
+<minPrice>104</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>79</keepNumber>
+</data>
+<data>
+<time>2014-03-08 15:44:40</time>
+<maxPrice>91</maxPrice>
+<minPrice>67</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>89</keepNumber>
+</data>
+<data>
+<time>2014-03-08 16:12:13</time>
+<maxPrice>113</maxPrice>
+<minPrice>40</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>67</keepNumber>
+</data>
+<data>
+<time>2014-03-08 16:13:04</time>
+<maxPrice>131</maxPrice>
+<minPrice>89</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>79</keepNumber>
+</data>
+<data>
+<time>2014-03-08 16:14:06</time>
+<maxPrice>131</maxPrice>
+<minPrice>89</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>80</keepNumber>
+</data>
+<data>
+<time>2014-03-08 16:41:37</time>
+<maxPrice>79</maxPrice>
+<minPrice>37</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>105</keepNumber>
+</data>
+<data>
+<time>2014-03-08 17:10:42</time>
+<maxPrice>147</maxPrice>
+<minPrice>102</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>82</keepNumber>
+</data>
+<data>
+<time>2014-03-08 17:40:36</time>
+<maxPrice>93</maxPrice>
+<minPrice>69</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>78</keepNumber>
+</data>
+<data>
+<time>2014-03-08 18:09:33</time>
+<maxPrice>144</maxPrice>
+<minPrice>84</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>104</keepNumber>
+</data>
+<data>
+<time>2014-03-08 18:43:02</time>
+<maxPrice>147</maxPrice>
+<minPrice>104</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>86</keepNumber>
+</data>
+<data>
+<time>2014-03-08 19:08:48</time>
+<maxPrice>100</maxPrice>
+<minPrice>65</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>66</keepNumber>
+</data>
+<data>
+<time>2014-03-08 19:24:27</time>
+<maxPrice>150</maxPrice>
+<minPrice>92</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>99</keepNumber>
+</data>
+<data>
+<time>2014-03-08 19:38:47</time>
+<maxPrice>113</maxPrice>
+<minPrice>87</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>91</keepNumber>
+</data>
+<data>
+<time>2014-03-08 20:07:54</time>
+<maxPrice>143</maxPrice>
+<minPrice>103</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>93</keepNumber>
+</data>
+<data>
+<time>2014-03-08 20:37:59</time>
+<maxPrice>117</maxPrice>
+<minPrice>88</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>92</keepNumber>
+</data>
+<data>
+<time>2014-03-08 21:07:14</time>
+<maxPrice>98</maxPrice>
+<minPrice>77</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>75</keepNumber>
+</data>
+<data>
+<time>2014-03-08 21:36:21</time>
+<maxPrice>151</maxPrice>
+<minPrice>112</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>79</keepNumber>
+</data>
+<data>
+<time>2014-03-08 22:05:33</time>
+<maxPrice>152</maxPrice>
+<minPrice>103</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>75</keepNumber>
+</data>
+<data>
+<time>2014-03-08 23:05:03</time>
+<maxPrice>75</maxPrice>
+<minPrice>52</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>49</keepNumber>
+</data>
+<data>
+<time>2014-03-09 00:03:49</time>
+<maxPrice>138</maxPrice>
+<minPrice>89</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>61</keepNumber>
+</data>
+<data>
+<time>2014-03-09 01:02:31</time>
+<maxPrice>151</maxPrice>
+<minPrice>101</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>63</keepNumber>
+</data>
+<data>
+<time>2014-03-09 02:02:13</time>
+<maxPrice>127</maxPrice>
+<minPrice>78</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>70</keepNumber>
+</data>
+<data>
+<time>2014-03-09 03:01:00</time>
+<maxPrice>116</maxPrice>
+<minPrice>76</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>65</keepNumber>
+</data>
+<data>
+<time>2014-03-09 04:00:39</time>
+<maxPrice>135</maxPrice>
+<minPrice>90</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>76</keepNumber>
+</data>
+<data>
+<time>2014-03-09 05:01:05</time>
+<maxPrice>126</maxPrice>
+<minPrice>89</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>65</keepNumber>
+</data>
+<data>
+<time>2014-03-09 06:00:34</time>
+<maxPrice>139</maxPrice>
+<minPrice>104</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>65</keepNumber>
+</data>
+<data>
+<time>2014-03-09 07:00:53</time>
+<maxPrice>97</maxPrice>
+<minPrice>76</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>74</keepNumber>
+</data>
+<data>
+<time>2014-03-09 07:30:50</time>
+<maxPrice>104</maxPrice>
+<minPrice>67</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>65</keepNumber>
+</data>
+<data>
+<time>2014-03-09 08:03:42</time>
+<maxPrice>110</maxPrice>
+<minPrice>79</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>95</keepNumber>
+</data>
+<data>
+<time>2014-03-09 08:31:08</time>
+<maxPrice>138</maxPrice>
+<minPrice>101</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>88</keepNumber>
+</data>
+<data>
+<time>2014-03-09 09:01:11</time>
+<maxPrice>131</maxPrice>
+<minPrice>99</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>72</keepNumber>
+</data>
+<data>
+<time>2014-03-09 09:31:16</time>
+<maxPrice>130</maxPrice>
+<minPrice>93</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>64</keepNumber>
+</data>
+<data>
+<time>2014-03-09 10:00:28</time>
+<maxPrice>132</maxPrice>
+<minPrice>83</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>71</keepNumber>
+</data>
+<data>
+<time>2014-03-09 10:30:35</time>
+<maxPrice>94</maxPrice>
+<minPrice>54</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>64</keepNumber>
+</data>
+<data>
+<time>2014-03-09 11:00:41</time>
+<maxPrice>138</maxPrice>
+<minPrice>98</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>64</keepNumber>
+</data>
+<data>
+<time>2014-03-09 11:30:45</time>
+<maxPrice>134</maxPrice>
+<minPrice>101</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>67</keepNumber>
+</data>
+<data>
+<time>2014-03-09 12:03:41</time>
+<maxPrice>120</maxPrice>
+<minPrice>93</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>77</keepNumber>
+</data>
+<data>
+<time>2014-03-09 12:31:15</time>
+<maxPrice>122</maxPrice>
+<minPrice>82</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>76</keepNumber>
+</data>
+<data>
+<time>2014-03-09 13:00:34</time>
+<maxPrice>102</maxPrice>
+<minPrice>73</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>80</keepNumber>
+</data>
+<data>
+<time>2014-03-09 13:30:36</time>
+<maxPrice>103</maxPrice>
+<minPrice>78</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>110</keepNumber>
+</data>
+<data>
+<time>2014-03-09 14:00:39</time>
+<maxPrice>118</maxPrice>
+<minPrice>87</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>93</keepNumber>
+</data>
+<data>
+<time>2014-03-09 14:14:34</time>
+<maxPrice>127</maxPrice>
+<minPrice>85</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>94</keepNumber>
+</data>
+<data>
+<time>2014-03-09 14:30:36</time>
+<maxPrice>103</maxPrice>
+<minPrice>78</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>78</keepNumber>
+</data>
+<data>
+<time>2014-03-09 15:03:36</time>
+<maxPrice>101</maxPrice>
+<minPrice>72</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>82</keepNumber>
+</data>
+<data>
+<time>2014-03-09 15:31:06</time>
+<maxPrice>138</maxPrice>
+<minPrice>95</minPrice>
+<sellNumber>50</sellNumber>
+<keepNumber>99</keepNumber>
+</data>
+<data>
+<time>2007-01-01 00:00:00</time>
+<maxPrice>50</maxPrice>
+<minPrice>50</minPrice>
+<sellNumber>84</sellNumber>
+<keepNumber>50</keepNumber>
+</data>
+<data>
+<time>2007-11-01 00:00:10</time>
+<maxPrice>50</maxPrice>
+<minPrice>256</minPrice>
+<sellNumber>84</sellNumber>
+<keepNumber>50</keepNumber>
+</data>
+</datas>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        >
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="切换签名"
+            android:textSize="30sp"
+            android:gravity="center"
+            />
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#00f"
+            />
+
+    <ListView
+            android:id="@+id/lv_signature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#ff0"
+            android:dividerHeight="1dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            />
+    <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            >
+        <Button
+                android:id="@+id/btn_yes"
+                android:text="确定"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+        <Button
+                android:id="@+id/btn_no"
+                android:text="取消"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+
+
+    </LinearLayout>
+</LinearLayout>

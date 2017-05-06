@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        >
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="页面上面一直显示的标题部分"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#ff0"
+            />
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+              >
+
+        <ListView
+                android:id="@+id/lv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@android:color/holo_red_light"
+                android:dividerHeight="1dp"
+                android:background="#0ff"
+                />
+
+        <LinearLayout
+                android:id="@+id/invis"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ListView上面一直显示的头部内容"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:background="#f0f"
+                    />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
+

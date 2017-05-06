@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BaseStyle" parent="android:Theme.Light">
+        <item name="android:windowTitleSize">30sp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/BaseStyleBackground</item>
+        <item name="android:windowTitleStyle">@style/BaseStyleText</item>
+    </style>
+
+    <style name="BaseStyleBackground">
+        <item name="android:background">#000</item>
+    </style>
+    <style name="BaseStyleText">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="MyStyle">
+        <item name="android:textColor">#000</item>
+        <!--  <item name="android:gravity">center</item>-->
+       <!--  <item name="android:background">#fff</item>-->
+
+    </style>
+    <style name="CharViewActivityStyle">
+
+        <item name="android:textColor">#000</item>
+        <!--  <item name="android:gravity">center</item>-->
+        <item name="android:background">#fff</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
