@@ -7,14 +7,13 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewConfiguration;
 import android.widget.AbsListView;
 import android.widget.ListView;
 
 /**
  * 继承自SwipeRefreshLayout,从而实现滑动到底部时上拉加载更多的功能.
  */
-public class RefreshLayout  extends SwipeRefreshLayout implements AbsListView.OnScrollListener {
+public class RefreshLayout extends SwipeRefreshLayout implements AbsListView.OnScrollListener {
 
     /**
      * 滑动到最下面时的上拉操作
@@ -26,6 +25,10 @@ public class RefreshLayout  extends SwipeRefreshLayout implements AbsListView.On
      */
     private ListView mListView;
 
+    /**
+     * 能否上拉
+     */
+    private boolean canpullToLoad = true;
     /**
      * 上拉监听器, 到了最底部的上拉加载操作
      */
@@ -59,10 +62,9 @@ public class RefreshLayout  extends SwipeRefreshLayout implements AbsListView.On
     public RefreshLayout(Context context, AttributeSet attrs) {
         super(context, attrs);
 
-        mTouchSlop = ViewConfiguration.get(context).getScaledTouchSlop();
-
-        mListViewFooter = LayoutInflater.from(context).inflate(R.layout.listview_footer, null,
-                false);
+//        mTouchSlop = ViewConfiguration.get(context).getScaledTouchSlop();
+        mTouchSlop = 60;
+        mListViewFooter = LayoutInflater.from(context).inflate(R.layout.listview_footer, null, false);
     }
 
     @Override
@@ -73,6 +75,8 @@ public class RefreshLayout  extends SwipeRefreshLayout implements AbsListView.On
         if (mListView == null) {
             getListView();
         }
+
+
     }
 
     /**
@@ -124,12 +128,29 @@ public class RefreshLayout  extends SwipeRefreshLayout implements AbsListView.On
     }
 
     /**
+     * 能否上拉
+     *
+     * @return
+     */
+    public boolean getCanPullToLoad() {
+        return canpullToLoad;
+    }
+
+    /**
+     * 设置能否上拉
+     */
+    public void setCanpullToLoad(boolean canpullToLoad) {
+        this.canpullToLoad = canpullToLoad;
+    }
+
+
+    /**
      * 是否可以加载更多, 条件是到了最底部, listview不在加载中, 且为上拉操作.
      *
      * @return
      */
     private boolean canLoad() {
-        return isBottom() && !isLoading && isPullUp();
+        return isBottom() && !isLoading && isPullUp() &&canpullToLoad&& firstVisibleItem>1;
     }
 
     /**
@@ -190,11 +211,14 @@ public class RefreshLayout  extends SwipeRefreshLayout implements AbsListView.On
 
     }
 
+    private int firstVisibleItem;
+
     @Override
     public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount,
                          int totalItemCount) {
-        // 滚动时到了最底部也可以加载更多
-        if (canLoad()) {
+             this.firstVisibleItem=firstVisibleItem;
+        // 滚动时到了最底部也可以加载更多 ,并且第一条不可见！
+        if (canLoad() && firstVisibleItem > 1) {
             loadData();
         }
     }
@@ -205,6 +229,9 @@ public class RefreshLayout  extends SwipeRefreshLayout implements AbsListView.On
      * @author mrsimple
      */
     public static interface OnLoadListener {
+
         public void onLoad();
+
     }
+
 }
